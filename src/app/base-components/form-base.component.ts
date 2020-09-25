@@ -7,7 +7,6 @@ import { GenericValidator, DisplayMessage, ValidationMessages } from '../utils/g
 
 export abstract class FormBaseComponent {
     
-
     displayMessage: DisplayMessage = {};
     genericValidator: GenericValidator;
     validationMessages: ValidationMessages;

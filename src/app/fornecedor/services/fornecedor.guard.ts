@@ -6,6 +6,7 @@ import { NovoComponent } from '../novo/novo.component';
 @Injectable()
 export class FornecedorGuard implements CanActivate, CanDeactivate<NovoComponent> {
 
+    
     localStorageUtils = new LocalStorageUtils();
 
     constructor(private router: Router) { }
